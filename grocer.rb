@@ -11,14 +11,11 @@ def find_item_by_name_in_collection(name, collection)
     binding.pry
     if var.has_value?(name) 
       return var
-    else
-      return nil
     end
     i += 1
   end  
   # binding.pry
-
-  
+  return nil
 end
 
 def consolidate_cart(cart)

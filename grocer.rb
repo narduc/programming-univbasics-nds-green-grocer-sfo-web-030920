@@ -17,7 +17,7 @@ def find_item_by_name_in_collection(name, collection)
   i = 0
   while i < collection.length 
     item = collection[i]
-  
+    
   i += 1
   end
   binding.pry

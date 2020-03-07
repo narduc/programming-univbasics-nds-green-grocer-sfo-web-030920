@@ -1,14 +1,5 @@
 require 'pry'
 
-
-
-
-
-
-
-
-
-
 def find_item_by_name_in_collection(name, collection)
   # Implement me first!
   #
@@ -26,6 +17,7 @@ def find_item_by_name_in_collection(name, collection)
     i = 0
   while i < collection.length
     var = collection[i]
+    binding.pry
     if collection.has_value(name) 
       return var[name]
     else

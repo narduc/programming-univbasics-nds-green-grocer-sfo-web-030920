@@ -19,7 +19,7 @@ def find_item_by_name_in_collection(name, collection)
     var = collection[i]
     binding.pry
     if var.has_value(name) 
-      return var[name]
+      return var
     else
       return nil
     end

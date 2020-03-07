@@ -14,14 +14,25 @@ def find_item_by_name_in_collection(name, collection)
   #
   # Consult README for inputs and outputs
   #  binding.pry
-  i = 0
-  while i < collection.length 
-    var = collection[i]
+  
+  # i = 0
+  # while i < collection.length 
+  #   var = collection[i]
     
-  i += 1
-  end
-  binding.pry
+  # i += 1
+  # end
+  # binding.pry
 
+    i = 0
+  while i < collection.length
+    var = collection[i]
+    if collection.has_value(name) 
+      return var[name]
+    else
+      return nil
+    end
+    i += 1
+  end  
 
 
   

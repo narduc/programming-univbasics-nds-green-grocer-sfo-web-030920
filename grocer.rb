@@ -18,7 +18,7 @@ def find_item_by_name_in_collection(name, collection)
   while i < collection.length
     var = collection[i]
   #  binding.pry
-    if var.has_value(name) 
+    if var.has_value?(name) 
       return var
     else
       return nil

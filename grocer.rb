@@ -27,14 +27,10 @@ def consolidate_cart(cart)
   arr = []
   i = 0
   while i < cart.length 
-    var = cart[i]
-    if var == var
-    var[:count] += 1
-    arr << var
-    end
+
   i += 1
   end
-  return arr
+  
   
   
   

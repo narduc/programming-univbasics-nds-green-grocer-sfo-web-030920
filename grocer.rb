@@ -28,8 +28,9 @@ def consolidate_cart(cart)
   i = 0
   while i < cart.length 
     var = cart[i]
-    
+    if 
   
+    end
   i += 1
   end
   

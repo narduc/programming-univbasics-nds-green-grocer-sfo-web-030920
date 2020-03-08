@@ -28,8 +28,9 @@ def consolidate_cart(cart)
   i = 0
   while i < cart.length 
     var = cart[i]
-    if 
-  
+    if var == var
+    var[:count] += 1
+    arr << var
     end
   i += 1
   end
